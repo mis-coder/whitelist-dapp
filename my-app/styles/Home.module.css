@@ -1,0 +1,99 @@
+.main {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+}
+
+.footer {
+  display: flex;
+  height: 3rem;
+  padding: 2rem 0;
+  border-top: 1px solid var(--border-color);
+  justify-content: center;
+  align-items: center;
+  font-family: var(--poppins);
+  font-size: 0.8rem;
+  color: var(--dark-grey-color);
+}
+
+.footer span{
+  color: var(--pink-color);
+  margin:0  0.3rem;
+}
+
+.image {
+  width: 70%;
+  height: 50%;
+  margin-left: 20%;
+}
+
+.intro{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 0;
+  font-weight:700;
+  color: var(--black-color);
+}
+
+.description {
+  font-size: 1rem;
+  color:var(--dark-grey-color);
+}
+
+.joinedWhitelistInfo{
+  font-size: 0.8rem;
+  font-style: italic;
+  color: var(--light-grey-color);
+}
+
+.joinedWhitelistInfo span{
+  font-weight: bold;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: var(--pink-color);
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 1rem 0.8rem;
+  width: 200px;
+  cursor: pointer;
+  margin: 3rem auto 0.8rem auto;
+  border-radius: 0.5rem;
+  font-family: var(--poppins);
+}
+
+.thanksDiv{
+  color: var(--pink-color);
+  font-style: italic;
+  margin-top: 2rem;
+}
+
+@media (max-width: 1000px) {
+  .main {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title{
+    font-size: 1.5rem;
+  }
+
+  .image{
+    width: 50%;
+    height: 30%;
+    margin: 2rem auto 0rem 20%;
+  }
+}

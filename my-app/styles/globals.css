@@ -1,0 +1,38 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--poppins);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root{
+  /* custom colors */
+  --pink-color: #ff6996;
+  --black-color: #1c1a1f;
+  --dark-grey-color: #828282;
+  --light-grey-color: #9b9b9b;
+  --border-color: #eaeaea;
+
+  /* custom fonts */
+  --poppins: 'Poppins', sans-serif;
+
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
