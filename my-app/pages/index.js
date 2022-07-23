@@ -24,7 +24,7 @@ const Home = () => {
       });
       connectWallet();
     }
-  }, [isWalletConnected]);
+  }, [isWalletConnected, web3ModalRef, connectWallet]);
 
   const renderButton = () => {
     if (isWalletConnected) {
